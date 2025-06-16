@@ -24,6 +24,8 @@ ItemController: Classe responsável pelo gerenciamento dos itens em memória (li
 ItemView: Camada de interação com o usuário via console. Exibe menus, recebe entradas e invoca métodos do controller para executar as operações.
 Console: Classe utilitária que encapsula os métodos de entrada de dados (como lerString(), lerInt(), lerFloat()), facilitando a leitura de informações via terminal e evitando repetições.
 
+Observação: Durante o desenvolvimento após ter feito parte Teórica, removi a classe DetalhesItem, que continha uma relação de composição, pois percebi que não fazia sentido para o escopo do projeto como um todo. Isso ajudou a simplificar o modelo sem perder funcionalidades importantes.
+
 Como Executar o Projeto:
 
 Certifique-se de ter o Java JDK instalado em sua máquina. Em seguida, clone o repositório do projeto usando o comando git clone <URL_DO_REPOSITORIO>. Após clonar, compile as classes Java com o comando javac -d bin src/model/*.java src/controller/*.java src/view/*.java, que compilará todos os arquivos para o diretório bin. Para iniciar o sistema, execute o comando java -cp bin view.ItemView. O programa abrirá um menu no console, permitindo ao usuário cadastrar itens (livros e filmes), realizar empréstimos e devoluções, listar e remover itens. Todas as informações são salvas automaticamente no arquivo item.txt, localizado na raiz do projeto, garantindo a persistência dos dados entre as execuções.
