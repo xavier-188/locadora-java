@@ -28,7 +28,7 @@ Observação: Durante o desenvolvimento após ter feito parte Teórica, removi a
 
 Como Executar o Projeto:
 
-Certifique-se de ter o Java JDK instalado em sua máquina. Em seguida, clone o repositório do projeto usando o comando git clone <URL_DO_REPOSITORIO>. Após clonar, compile as classes Java com o comando javac -d bin src/model/*.java src/controller/*.java src/view/*.java, que compilará todos os arquivos para o diretório bin. Para iniciar o sistema, execute o comando java -cp bin view.ItemView. O programa abrirá um menu no console, permitindo ao usuário cadastrar itens (livros e filmes), realizar empréstimos e devoluções, listar e remover itens. Todas as informações são salvas automaticamente no arquivo item.txt, localizado na raiz do projeto, garantindo a persistência dos dados entre as execuções.
+É necessário clonar o repositório do GitHub para o seu computador. Para isso, copie a URL do repositório no GitHub. Depois, abra o terminal ou prompt de comando no seu computador e navegue até a pasta onde deseja salvar o projeto. Em seguida, execute o comando git clone seguido da URL copiada: git clone https://github.com/xavier-188/locadora-java.git Esse comando fará o download dos arquivos do projeto para o seu computador. Após a clonagem, abra o VSCode, clique em “Arquivo” e depois em “Abrir Pasta...”, selecione a pasta do projeto que foi clonada e clique em “Abrir”. Com isso, o projeto estará aberto no VSCode, pronto para ser visualizado, editado e executado.
 
 Durante o desenvolvimento deste projeto, utilizei o ChatGPT para:
 
