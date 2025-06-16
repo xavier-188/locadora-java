@@ -1,0 +1,4 @@
+LIVRO;Diario de Um Banana;34535;DISPONIVEL;Jeff Kinney;Infantil;b46g4653;
+LIVRO;It: A coisa;68684;DISPONIVEL;Stephen King;Horror;hoih3636;
+FILME;Homem Aranha;29844;DISPONIVEL;Sam Raimi;Ficcao/Acao;2.0
+FILME;Interstellar;57574;DISPONIVEL;Christopher Nolan;Ficcao Cientifica;2.3
